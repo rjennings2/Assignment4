@@ -1,0 +1,58 @@
+/******w**************
+    
+    Assignment 4 Stylesheet
+    Name: Rylee Jennings
+    Date: June 28th, 2024
+    Description: JSON and Open Data
+
+*********************/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #F351C3;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ECBCDE;
+}
